@@ -10,6 +10,7 @@ namespace ClassLibraryDatos
 {
     public class datos
     {
+        //conexion//
         public SqlConnection conexion = new SqlConnection("Data Source=200.36.208.13;Initial Catalog=pooipvg;User ID=ipvg;Password=ipvg");
 
         public void Conectar()
